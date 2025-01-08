@@ -3,6 +3,6 @@ export default {
   schema: "./utils/schema.js",
   dialect: "postgresql",
   dbCredentials: {
-    url: "postgresql://ai-interview_owner:5aXEgHMmi6ST@ep-ancient-lab-a5vsbeh5.us-east-2.aws.neon.tech/ai-interview?sslmode=require",
+    url: "postgresql://hiredai_owner:nYuRzC1xH4gS@ep-gentle-shape-a1v63dkf.ap-southeast-1.aws.neon.tech/hiredai?sslmode=require",
   },
 };
