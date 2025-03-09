@@ -50,7 +50,6 @@ function AddNewInterview() {
         .replace(/```json|```/g, "") // Remove code block markers
         .trim(); // Remove extra whitespace
 
-      console.log("Raw AI Response:", MockJsonResp);
 
       // Try parsing JSON
       const parsedResponse = JSON.parse(MockJsonResp);
